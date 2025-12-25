@@ -1,4 +1,4 @@
-from bank_acc import BankAccount
+from banck_acc import BankAccount
 
 john = BankAccount("John", "saving", 500)
 tim = BankAccount("Tim", "loan", -1000000)

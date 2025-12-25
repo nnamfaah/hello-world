@@ -26,6 +26,7 @@ class BankAccount:
 
     def deposit(self, amount = 0):
         self.balance += amount
+        return self.balance
     
     def get_balance(self):
         return self.balance
